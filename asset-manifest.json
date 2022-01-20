@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/lingolaunch/static/css/main.4469ba0a.css",
-    "main.js": "/lingolaunch/static/js/main.4f9e0588.js",
+    "main.js": "/lingolaunch/static/js/main.d7f5390d.js",
     "index.html": "/lingolaunch/index.html",
     "main.4469ba0a.css.map": "/lingolaunch/static/css/main.4469ba0a.css.map",
-    "main.4f9e0588.js.map": "/lingolaunch/static/js/main.4f9e0588.js.map"
+    "main.d7f5390d.js.map": "/lingolaunch/static/js/main.d7f5390d.js.map"
   },
   "entrypoints": [
     "static/css/main.4469ba0a.css",
-    "static/js/main.4f9e0588.js"
+    "static/js/main.d7f5390d.js"
   ]
 }

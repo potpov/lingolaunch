@@ -35,7 +35,7 @@ export default function SignUp({userInfo, updateUserInfo}) {
                 let {user} = await supabase.auth.signUp({
                     email: email,
                     password: password,
-                    }, { redirectTo: "http://localhost:3000/finalise" }
+                    }, { redirectTo: "/finalise" }
                 )
                 if (user) updateUserInfo({status: 'ToVerify', syncUser:true})
             }

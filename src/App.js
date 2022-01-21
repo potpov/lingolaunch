@@ -141,7 +141,7 @@ function App() {
         <StyledEngineProvider injectFirst>
           <ThemeProvider theme={theme}>
             <DictionaryContainer>
-              <Router>
+              <Router basename={process.env.PUBLIC_URL}>
                 <ScrollToTop />
                   {
                     (userInfo.syncUser || userInfo.syncArticles) ?

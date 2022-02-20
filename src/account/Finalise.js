@@ -92,6 +92,7 @@ export default function Finalise({userInfo, updateUserInfo}) {
                     />
                 </Grid>
                 <Grid item xs={12}>
+                    <strong>Demo currently available only for German language</strong>
                     <InputLabel variant="standard" required htmlFor="uncontrolled-native">
                         Language you want to learn
                     </InputLabel>
